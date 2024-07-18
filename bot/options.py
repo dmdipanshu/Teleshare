@@ -11,7 +11,7 @@ class SettingsModel(BaseModel):
     START_MESSAGE: str | int = "I am a file-sharing bot."
     USER_REPLY_TEXT: str | int = "idk"
 
-    AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes"
+    AUTO_DELETE_MESSAGE: str | int = "⚠️This file(s) will be deleted within {} minutes ⚠️Please Forward this file or saved this and start there"
     AUTO_DELETE_SECONDS: int = 300
     GLOBAL_MODE: bool = False
     BACKUP_FILES: bool = True
